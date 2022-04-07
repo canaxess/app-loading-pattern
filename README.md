@@ -15,11 +15,12 @@ Provides audible feedback. Where the loading state must be conveyed repeatedly u
 Provides audible feedback and toggles the text in the container from empty to "loading..." on a 1 second interval to trigger the assistive technoloy to repeatedly announce loading.
 
 ## Screen reader compatibility
-|   | JAWS  | NVDA   |VoiceOver   |Talkback   |
+|   | JAWS <sup>v2021</sup> | NVDA <sup>v2020</sup>  |VoiceOver   |Talkback   |
 |---|---|---|---|---|
-| Edge  |   |   |   |   |
-| Chrome  |   |   |   |   |
-| FireFox  |   |   |   |   |
+| Edge <sup>v100</sup>  |   |   |   |   |
+| Chrome <sup>v100</sup>  |   |   |   |   |
+| FireFox <sup>v99</sup>  |   |   |   |   |
 | Safari  |   |   |   |   |
 | Ipad  |   |   |   |   |
 | Android  |   |   |   |   |
+| MacOS  |   |   |   |   |
