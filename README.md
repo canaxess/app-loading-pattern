@@ -3,7 +3,7 @@ Single Page Applications (SPA's) can load content incrementally, or partially re
 
 This example demonstrates `role="progressbar"`, `role="status"` and `role="status"` enhanced with JavaScript.
 
-[Accessible app loading](https://canaxess.github.io/app-loading-pattern/index.html)
+- [Accessible app loading](https://canaxess.github.io/app-loading-pattern/index.html)
 
 ## `role="progressbar"`
 Uses an ascending tone (in some browser and AT combinations) to convey audibly the progress of the application. The full `progressrole` [authoring guide](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_progressbar_role) provides an example which does not appear to be supported in assistive technology.
