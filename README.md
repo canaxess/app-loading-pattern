@@ -14,12 +14,12 @@ Provides audible feedback. Where the loading state must be conveyed repeatedly u
 ## `role="status"` enhanced with JavaScript
 Provides audible feedback and toggles the text in the container from empty to "loading..." on a 1 second interval to trigger the assistive technoloy to repeatedly announce loading.
 
-## Screen reader compatibility
+## Screen reader compatibility for `role="status"` enhanced with JavaScript
 |   | JAWS <sup>v2021</sup> | NVDA <sup>v2020</sup>  |VoiceOver   |Talkback   |
 |---|:-:|:-:|:-:|:-:|
-| Edge <sup>v100</sup>  |   |   | :white_circle:  | :white_circle:  |
-| Chrome <sup>v100</sup>  |   |   |:white_circle:   | :white_circle:  |
-| FireFox <sup>v99</sup>  |   |   | :white_circle:  | :white_circle:  |
-| Ipad  |   |   |   | :white_circle:  |
+| Edge <sup>v100</sup>  | :heavy_check_mark:  |:heavy_check_mark:   | :white_circle:  | :white_circle:  |
+| Chrome <sup>v100</sup>  |:heavy_check_mark:   | :heavy_check_mark:   |:white_circle:   | :white_circle:  |
+| FireFox <sup>v99</sup>  | :x:  | :heavy_check_mark:  | :white_circle:  | :white_circle:  |
+| Ipad  | :white_circle:  | :white_circle:  |   | :white_circle:  |
 | Android  | :white_circle:  | :white_circle:  | :white_circle:  |   |
 | MacOS  | :white_circle:  | :white_circle:  |   | :white_circle:  |
