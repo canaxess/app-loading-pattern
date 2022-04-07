@@ -21,5 +21,5 @@ Provides audible feedback and toggles the text in the container from empty to "l
 | Chrome <sup>v100</sup>  |:heavy_check_mark:   | :heavy_check_mark:   |:white_circle:   | :white_circle:  |
 | FireFox <sup>v99</sup>  | :x:  | :heavy_check_mark:  | :white_circle:  | :white_circle:  |
 | Ipad <sup>v12.5.5</sup> | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  |
-| Android  | :white_circle:  | :white_circle:  | :white_circle:  |   |
+| Android <sup>v11</sup> | :white_circle:  | :white_circle:  | :white_circle:  | :heavy_check_mark:   |
 | MacOS  | :white_circle:  | :white_circle:  |   | :white_circle:  |
