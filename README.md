@@ -13,3 +13,13 @@ Provides audible feedback. Where the loading state must be conveyed repeatedly u
 
 ## `role="status"` enhanced with JavaScript
 Provides audible feedback and toggles the text in the container from empty to "loading..." on a 1 second interval to trigger the assistive technoloy to repeatedly announce loading.
+
+## Screen reader compatibility
+|   | JAWS  | NVDA   |VoiceOver   |Talkback   |
+|---|---|---|---|---|
+| Edge  |   |   |   |   |
+| Chrome  |   |   |   |   |
+| FireFox  |   |   |   |   |
+| Safari  |   |   |   |   |
+| Ipad  |   |   |   |   |
+| Android  |   |   |   |   |
