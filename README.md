@@ -1,7 +1,7 @@
 # Accessible app loading pattern
 Single Page Applications (SPA's) can load content incrementally, or partially reload parts of the same page. For accessibility purposes the loading state must be conveyed to assistive technology.
 
-This example demonstrates `role="progressbar"`, `role="status"` and `role="status"` enhanced with JavaScript.
+This example demonstrates `role="progressbar"`, `role="status"` and `role="status"` enhanced with JavaScript. The JavaScript uses the method `innerHTML` to alter the text content within the DIV container.
 
 [Accessible app loading](https://canaxess.github.io/app-loading-pattern/index.html)
 
@@ -16,11 +16,10 @@ Provides audible feedback and toggles the text in the container from empty to "l
 
 ## Screen reader compatibility
 |   | JAWS <sup>v2021</sup> | NVDA <sup>v2020</sup>  |VoiceOver   |Talkback   |
-|---|---|---|---|---|
-| Edge <sup>v100</sup>  |   |   |   |   |
-| Chrome <sup>v100</sup>  |   |   |   |   |
-| FireFox <sup>v99</sup>  |   |   |   |   |
-| Safari  |   |   |   |   |
-| Ipad  |   |   |   |   |
-| Android  |   |   |   |   |
-| MacOS  |   |   |   |   |
+|---|:-:|:-:|:-:|:-:|
+| Edge <sup>v100</sup>  |   |   | :white_circle:  | :white_circle:  |
+| Chrome <sup>v100</sup>  |   |   |:white_circle:   | :white_circle:  |
+| FireFox <sup>v99</sup>  |   |   | :white_circle:  | :white_circle:  |
+| Ipad  |   |   |   | :white_circle:  |
+| Android  | :white_circle:  | :white_circle:  | :white_circle:  |   |
+| MacOS  | :white_circle:  | :white_circle:  |   | :white_circle:  |
