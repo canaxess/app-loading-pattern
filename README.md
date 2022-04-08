@@ -21,16 +21,16 @@ Screen reader only CSS is applied to visually hide the span containing the "load
 ```
 
 ### Screen reader compatibility
-|   | JAWS <sup>v2021</sup> | NVDA <sup>v2020</sup>  |VoiceOver   |Talkback   |
-|---|:-:|:-:|:-:|:-:|
-| Edge <sup>v100</sup>  | :heavy_check_mark:  |:heavy_check_mark:   | :white_circle:  | :white_circle:  |
-| Chrome <sup>v100</sup>  |:heavy_check_mark:   | :heavy_check_mark:   |:white_circle:   | :white_circle:  |
-| FireFox <sup>v99</sup>  | 	:heavy_check_mark:  | :heavy_check_mark:  | :white_circle:  | :white_circle:  |
-| iPad Air 2 <sup>v15.3.1</sup> | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  |
-| iPad mini 2 <sup>v12.5.5</sup> | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  |
-| iPhone 7 <sup>v15.3.1</sup> | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  |
-| Galaxy Tab A7 <sup>Android v11</sup> | :white_circle:  | :white_circle:  | :white_circle:  | :heavy_check_mark:   |
-| MacOS <sup>Monterey v12.2.1</sup>  | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  |
+|   | JAWS <sup>v2021</sup> | NVDA <sup>v2020</sup>  |VoiceOver   |Talkback   | Narrator <sup>Win 10</sup> |
+|---|:-:|:-:|:-:|:-:|:-:|
+| Edge <sup>v100</sup>  | :heavy_check_mark:  |:heavy_check_mark:   | :white_circle:  | :white_circle:  | :heavy_check_mark:  |
+| Chrome <sup>v100</sup>  |:heavy_check_mark:   | :heavy_check_mark:   |:white_circle:   | :white_circle:  |  :heavy_check_mark: |
+| FireFox <sup>v99</sup>  | 	:heavy_check_mark:  | :heavy_check_mark:  | :white_circle:  | :white_circle:  | :x:  |
+| iPad Air 2 <sup>v15.3.1</sup> | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  | :white_circle:  |
+| iPad mini 2 <sup>v12.5.5</sup> | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  | :white_circle:  |
+| iPhone 7 <sup>v15.3.1</sup> | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  |  :white_circle: |
+| Galaxy Tab A7 <sup>Android v11</sup> | :white_circle:  | :white_circle:  | :white_circle:  | :heavy_check_mark:   | :white_circle:  |
+| MacOS <sup>Monterey v12.2.1</sup>  | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  | :white_circle:  |
 
 note. Incompatibility with FireFox will occur if FireFox is running first when JAWS begins. JAWS must be running first before starting FireFox.
 > I spoke with the JAWS developer. When Firefox launches, it detects whether JAWS is running and changes its window structure. Seeing as alerts work fine no matter what launches first, JAWS will probably eventually develop a workaround but the key thing here is that real users would have launched JAWS first, so this is not as big of a bug as it might seem.
