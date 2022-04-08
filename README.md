@@ -9,7 +9,7 @@ This example demonstrates `role="progressbar"`, `role="status"` and `role="statu
 Uses an ascending tone (in some browser and AT combinations) to convey audibly the progress. The full `progressbar` role [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_progressbar_role) and [aria authoring guide](https://www.w3.org/TR/wai-aria-1.1/#progressbar) provides an example which does not appear to be consistently supported in assistive technology.
 
 ## `role="status"`
-Provides audible feedback once only. Where the loading state must be conveyed repeatedly until loaded, this approach is in effective.
+Provides audible feedback once only if the output text doesn't change. Where the loading state must be conveyed repeatedly using the same word until loaded this approach is ineffective.
 
 ## `role="status"` + JavaScript
 Provides audible feedback and toggles the text in the container from empty to "loading" on a 1 second interval to trigger the assistive technology to repeatedly announce loading.
