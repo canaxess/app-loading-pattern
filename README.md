@@ -12,7 +12,7 @@ Uses an ascending tone (in some browser and AT combinations) to convey audibly t
 Provides audible feedback once only. Where the loading state must be conveyed repeatedly until loaded, this approach is in effective.
 
 ## `role="status"` + JavaScript
-Provides audible feedback and toggles the text in the container from empty to "loading..." on a 1 second interval to trigger the assistive technology to repeatedly announce loading.
+Provides audible feedback and toggles the text in the container from empty to "loading" on a 1 second interval to trigger the assistive technology to repeatedly announce loading.
 
 ### Screen reader compatibility
 |   | JAWS <sup>v2021</sup> | NVDA <sup>v2020</sup>  |VoiceOver   |Talkback   |
