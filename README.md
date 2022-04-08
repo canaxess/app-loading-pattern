@@ -3,7 +3,7 @@ Single Page Applications (SPA's) can load content incrementally, or partially re
 
 This example demonstrates `role="progressbar"`, `role="status"` and `role="status"` + JavaScript. The JavaScript uses the method `innerHTML` to alter the text content within the DIV container. The behaviour we're wanting to recreate is the assistive technology repeating loading until the content has finished loading.
 
-[Accessible app loading](https://canaxess.github.io/app-loading-pattern/index.html)
+[App loading pattern demo](https://canaxess.github.io/app-loading-pattern/index.html)
 
 ## `role="progressbar"`
 Uses an ascending tone (in some browser and AT combinations) to convey audibly the progress. The full `progressbar` role [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_progressbar_role) and [aria authoring guide](https://www.w3.org/TR/wai-aria-1.1/#progressbar) provides an example which does not appear to be consistently supported in assistive technology.
