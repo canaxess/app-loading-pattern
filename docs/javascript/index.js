@@ -27,13 +27,11 @@ function change()
 	{
 		case "true":
 			div.setAttribute('data-toggle', 'false')
-			div.innerHTML = 'Loading...';
-			console.log(1);
+			div.innerHTML = 'Loading';
 			break;
 		case "false":
 			div.setAttribute('data-toggle', 'true')
 			div.innerHTML = '';
-			console.log(2);
 			break;
 	}
 }
