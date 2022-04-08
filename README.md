@@ -21,7 +21,7 @@ Screen reader only CSS is applied to visually hide the span containing the "load
 |---|:-:|:-:|:-:|:-:|
 | Edge <sup>v100</sup>  | :heavy_check_mark:  |:heavy_check_mark:   | :white_circle:  | :white_circle:  |
 | Chrome <sup>v100</sup>  |:heavy_check_mark:   | :heavy_check_mark:   |:white_circle:   | :white_circle:  |
-| FireFox <sup>v99</sup>  | :x:  | :heavy_check_mark:  | :white_circle:  | :white_circle:  |
+| FireFox <sup>v99</sup>  | :heavy_check_mark:  | :heavy_check_mark:  | :white_circle:  | :white_circle:  |
 | Ipad <sup>v12.5.5</sup> | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  |
 | Android <sup>v11</sup> | :white_circle:  | :white_circle:  | :white_circle:  | :heavy_check_mark:   |
 | MacOS <sup>Monterey v12.2.1</sup>  | :white_circle:  | :white_circle:  | :heavy_check_mark:  | :white_circle:  |
