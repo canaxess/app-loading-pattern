@@ -16,6 +16,10 @@ Provides audible feedback and toggles the text in the container from empty to "l
 
 Screen reader only CSS is applied to visually hide the span containing the "loading" text. The `data-toggle` attribute is used to keep track of when to hide or show the text.
 
+```html
+<span role="status" data-toggle="true" class="sr-hidden">Loading</span>
+```
+
 ### Screen reader compatibility
 |   | JAWS <sup>v2021</sup> | NVDA <sup>v2020</sup>  |VoiceOver   |Talkback   |
 |---|:-:|:-:|:-:|:-:|
