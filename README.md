@@ -1,7 +1,7 @@
 # Accessible app loading pattern
 Single Page Applications (SPA's) can load content incrementally, or partially reload parts of the same page. For accessibility purposes the loading state must be conveyed to assistive technology.
 
-This example demonstrates `role="progressbar"`, `role="status"` and `role="status"` enhanced with JavaScript. The JavaScript uses the method `innerHTML` to alter the text content within the DIV container.
+This example demonstrates `role="progressbar"`, `role="status"` and `role="status"` enhanced with JavaScript. The JavaScript uses the method `innerHTML` to alter the text content within the DIV container. The behaviour we're wanting to recreate is the assistive technology repeating loading until the content has finished loading.
 
 [Accessible app loading](https://canaxess.github.io/app-loading-pattern/index.html)
 
