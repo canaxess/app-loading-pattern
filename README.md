@@ -20,6 +20,9 @@ Screen reader only CSS is applied to visually hide the span containing the "load
 <span role="status" data-toggle="true" class="sr-hidden">Loading</span>
 ```
 
+### Expected behaviour
+The screen reader will repeatedly announce "loading"
+
 ### Screen reader compatibility
 |   | JAWS <sup>v2021</sup> | NVDA <sup>v2020</sup>  |VoiceOver   |Talkback   | Narrator <sup>Win 10</sup> |
 |---|:-:|:-:|:-:|:-:|:-:|
