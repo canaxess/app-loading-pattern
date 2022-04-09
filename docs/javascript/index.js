@@ -3,16 +3,27 @@ const btn2 = document.querySelector('.btn2');
 const btn3 = document.querySelector('.btn3');
 
 btn1.addEventListener('click', function (event){
-	var div = document.getElementById('al-pb');
-	div.innerHTML = 'Loading...';
-	count=0;
-		
-	setInterval(function () {div.setAttribute('aria-valuenow', count++);}, 1000);
+	var div = document.getElementById('al-pb');	
+	var count=0;
+	var updateInterval = setInterval(function () {
+		if(count<=10)
+		{
+			div.setAttribute('aria-busy', 'true');
+			div.setAttribute('aria-valuetext', 'loading');
+			div.innerHTML = `${count}%`;
+			div.setAttribute('aria-valuenow', count++);
+		}
+		else
+		{
+			div.setAttribute('aria-busy', 'false');
+			clearInterval(updateInterval);
+		}
+		}, 1000);
 });
 
 btn2.addEventListener('click', function (event){
 	var div = document.getElementById('al-status');
-	div.innerHTML = 'Loading...';
+	div.innerHTML = 'Loading';
 });
 
 btn3.addEventListener('click', function (event){
